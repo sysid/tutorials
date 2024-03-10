@@ -1,0 +1,9 @@
+### GET request with parameter
+GET http://localhost:8888/count/message
+Accept: application/json
+
+### Send POST request with json body
+POST http://localhost:8888/message
+Content-Type: application/json
+
+"message with more sentences and words"
